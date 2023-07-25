@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes Gym</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body class="bg">
+
+    <main class="basic">
+        <img src="./media/Logo.png" alt="bear" class="logo">
+       <h1 class="titulo">Planes 2023</h1>
+
+        <label class="inicio" for="planes">Los Mejores Planes:</label>
+        <select id="planes" class="seleccionador">
+
+            <option class="option" value="Día">Día</option>
+            <option class="option" value="Mensual">Mensual</option>
+            <option class="option" value="Bimensual">Bimensual</option>
+            <option class="option" value="Semestral">Semestral</option>
+            <option class="option" value="Anual">Anual</option>
+            <option class="option" value="Anual-Especial">Anual Especial</option>
+            <option class="option" value="Mensual-Especial">Mensual Especial</option>
+            <option class="option" value="Beast-Mode">Beast Mode</option>
+            <option value="option">No estoy seguro...</option>
+
+        </select>
+
+       <button id="consultar">Consultar Precio</button>
+       <div id="valor"></div>
+       <div id="descripcion" class="detalle"></div>
+
+    </main> 
+
+
+
+
+    <script src="./Js/planes.js" defer></script>
+    <script src="./Js/main.js" defer></script>
+   
+</body>
+</html>
